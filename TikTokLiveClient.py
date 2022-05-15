@@ -5,7 +5,7 @@ from TikTokLive.types.events import CommentEvent, ConnectEvent
 from TikTokLive.types.events import CommentEvent, ConnectEvent, GiftEvent, ShareEvent, LikeEvent, FollowEvent, ViewerCountUpdateEvent
 
 # Instantiate the client with the user's username
-client: TikTokLiveClient = TikTokLiveClient(unique_id="")
+client: TikTokLiveClient = TikTokLiveClient(unique_id="gameprintcolor")
 
 sa = gspread.service_account(filename="keys.json")
 sh =  sa.open("TikTokLiveTest")
